@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PassChecker
 {
-    internal class PasswordProcessor
+    public class PasswordProcessor
     {
         public PasswordProcessor(string[] dataArray)
         {
@@ -23,7 +23,7 @@ namespace PassChecker
             {
                 for (int i = 0; i < dataArray.Length; i++)
                 {
-                    var line = dataArray[i];
+                    var line = dataArray[i].ToLower();
 
                     var decomposed = line.Split(' ');
 
@@ -32,19 +32,16 @@ namespace PassChecker
                     var charAmount = decomposed[1].Split('-');
                     
                     var min = Convert.ToInt32(charAmount[0]);
-                    var max = 0;
+                    var max = min;
+                    
                     if (charAmount.Length > 1)
-                    {
                         max = Convert.ToInt32(charAmount[1]);
-                    }
-                    else
-                    {
-                        max = min;
-                    }
+                    
+                    
                         
                     var containsPattern = decomposed[2].ToCharArray().Count(x => x == pattern);
 
-                    if (Enumerable.Range(min, max).Contains(containsPattern))
+                    if (Enumerable.Range(min, max).Contains(containsPattern) || max == containsPattern)
                         validPasswords++;
 
                 }

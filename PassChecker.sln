@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassChecker", "PassChecker\PassChecker.csproj", "{E0D248DA-3811-46CE-B0D7-42F0DE52B891}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordChecker_Tests", "PasswordChecker_Tests\PasswordChecker_Tests.csproj", "{E2EE8B55-4583-474C-94FC-7F711A985A5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E0D248DA-3811-46CE-B0D7-42F0DE52B891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0D248DA-3811-46CE-B0D7-42F0DE52B891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D248DA-3811-46CE-B0D7-42F0DE52B891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EE8B55-4583-474C-94FC-7F711A985A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EE8B55-4583-474C-94FC-7F711A985A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EE8B55-4583-474C-94FC-7F711A985A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EE8B55-4583-474C-94FC-7F711A985A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
