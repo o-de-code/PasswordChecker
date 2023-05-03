@@ -95,6 +95,19 @@ namespace PasswordChecker_Tests
             Assert.AreEqual(passwordProcessor.GetValidPasswordsNum(), 1);
         }
 
+        [TestMethod]
+        public void GetValidPasswordsNum_zeroLettersIntsructionWithRestrictedSymbol()
+        {
+            string[] lines = new string[]
+            {
+                "a 0 Password"
+            };
+
+            var passwordProcessor = new PasswordProcessor(lines);
+
+            Assert.AreEqual(passwordProcessor.GetValidPasswordsNum(), 0);
+        }
+
 
         [TestMethod]
         public void GetValidPasswordsNum_arrayOfDifferentData()
