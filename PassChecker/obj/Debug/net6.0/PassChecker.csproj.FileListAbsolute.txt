@@ -1,0 +1,15 @@
+C:\Users\Ol\source\repos\PassChecker\PassChecker\bin\Debug\net6.0\PassChecker.exe
+C:\Users\Ol\source\repos\PassChecker\PassChecker\bin\Debug\net6.0\PassChecker.deps.json
+C:\Users\Ol\source\repos\PassChecker\PassChecker\bin\Debug\net6.0\PassChecker.runtimeconfig.json
+C:\Users\Ol\source\repos\PassChecker\PassChecker\bin\Debug\net6.0\PassChecker.dll
+C:\Users\Ol\source\repos\PassChecker\PassChecker\bin\Debug\net6.0\PassChecker.pdb
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.csproj.AssemblyReference.cache
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.AssemblyInfoInputs.cache
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.AssemblyInfo.cs
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.csproj.CoreCompileInputs.cache
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.dll
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\refint\PassChecker.dll
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.pdb
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\PassChecker.genruntimeconfig.cache
+C:\Users\Ol\source\repos\PassChecker\PassChecker\obj\Debug\net6.0\ref\PassChecker.dll
