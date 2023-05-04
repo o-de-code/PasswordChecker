@@ -23,7 +23,7 @@
 
                     char pattern = decomposed[0][0];
 
-                    var charAmount = decomposed[1].Split('-');
+                    var charAmount = decomposed[1].Trim(':').Split('-');
                     
                     var min = Convert.ToInt32(charAmount[0]);
                     var max = min;

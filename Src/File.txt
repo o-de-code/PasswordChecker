@@ -1,4 +1,4 @@
-a 1-5 abracadabra
-b 2-4 zelbob
-g 1 dog
-c 5 zoooogffggf
+a 1-5: abracadabra
+b 2-4: zelbob
+g 1: dog
+c 5: zoooogffggf

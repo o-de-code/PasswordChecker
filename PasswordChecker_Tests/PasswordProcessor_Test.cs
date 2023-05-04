@@ -8,7 +8,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 1-2 Password"
+                "a 1-2: Password"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
