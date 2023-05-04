@@ -1,13 +1,15 @@
-﻿namespace PassChecker
+﻿using System.IO;
+
+namespace PassChecker
 {
     internal class FileReader
     {
-        static string relativePath = "/Src/File.txt";
-        readonly string textFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath);
+        static string relativePath = @"..\..\..\..\Src\File.txt";
+        readonly string textFile = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath));
         
         public FileReader()
         {
-
+            
         }
         public FileReader(string path)
         {
