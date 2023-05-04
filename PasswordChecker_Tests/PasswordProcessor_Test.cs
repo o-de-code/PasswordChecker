@@ -21,7 +21,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "A 1-2 Password"
+                "A 1-2: Password"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
@@ -34,7 +34,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 1-2 Passwarda"
+                "a 1-2: Passwarda"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
@@ -47,7 +47,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 1-2 Possword"
+                "a 1-2: Possword"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
@@ -60,7 +60,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 1 Password"
+                "a 1: Password"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
@@ -74,7 +74,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 1 Possword"
+                "a 1: Possword"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
@@ -87,7 +87,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 0 Possword"
+                "a 0: Possword"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
@@ -100,7 +100,7 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 0 Password"
+                "a 0: Password"
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
@@ -114,10 +114,10 @@ namespace PasswordChecker_Tests
         {
             string[] lines = new string[]
             {
-                "a 1-2 Possword",
-                "b 1 goBlin",
-                "c 6-9 CarauTo",
-                "d 0 Steven",
+                "a 1-2: Possword",
+                "b 1: goBlin",
+                "c 6-9: CarauTo",
+                "d 0: Steven",
             };
 
             var passwordProcessor = new PasswordProcessor(lines);
